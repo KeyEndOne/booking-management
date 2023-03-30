@@ -1,0 +1,61 @@
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 0 !important;
+}
+
+.header {
+    width: 800px;
+    margin: 15px auto;
+}
+.nav-bar{
+    display: flex;
+}
+.header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.button:hover{
+    color: white !important;
+    background-color: blue;
+}
+.homepage-banner{
+    background-image: url("../images/leaderboard.png") ;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;              /* optional, center the image */
+    width: 100%;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+}
+.homepage-tittle{
+    color: aliceblue;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 200px;
+}
+.container{
+    max-width: 936px;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+}
+.frmSearch{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.footer{
+    text-align: center;
+    border-top: 2px solid black;
+    margin: 20px 0 20px 0;
+}
+.footer p {
+    color: #4d4d4d;
+    margin: 5px 0 0 0;
+}
